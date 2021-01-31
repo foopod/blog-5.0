@@ -14,8 +14,8 @@ Yes please.
 
 The idea is that you create your composition so that elements flow on from each other and draw the observers eyes into the scene.
 
-{% image "./img/2018-05-23-1.jpg", "A path weaving through a forest, trees either side and a clearing in the distance"%}
+{% image "./img/2018-05-23-1.jpg", "A path weaving through a forest, trees either side and a clearing in the distance", "70vw" %}
 
 In the example above you can see how the path curves into the distance. It brings attention to the clearing.
 
-{% image "./img/2018-05-23-2.jpg", "A tunnel underneath a bridge that gets smaller and smaller as it goes toward the centre of the frame"%}
+{% image "./img/2018-05-23-2.jpg", "A tunnel underneath a bridge that gets smaller and smaller as it goes toward the centre of the frame", "70vw" %}
