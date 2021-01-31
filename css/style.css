@@ -83,7 +83,8 @@ nav{
 
 .content .navlink{
     display: inline-block;
-    margin-right: 15px;
+    padding: 10px 0px;
+    margin-right: 10px;
     color: #fff59d;
     vertical-align: middle;
     background-image: none;
@@ -91,16 +92,26 @@ nav{
 .content #header .navlink:hover{
     text-decoration: underline;
 }
+
 .content nav div{
     display: inline-block;
-    padding: 8px;
-    border-right: 1px dotted;
-    border-right-color: currentcolor;
-    border-color: #fff59d;
+    margin-right: 6px;
+    margin-top:-2px;
 }
-.content nav div:last-child{
+
+
+.content nav div:after {
+    border-right: 1px dotted #fff59d;
+    content: '';
+    height: 10%;
+}
+.content nav div:last-child a{
     margin-right: 0;
-    border-right: 0;
+}
+.content nav div:last-child::after{
+    border-right: 0px dotted #fff59d;
+    content: '';
+    height: 10%;
 }
 
 .content a{
