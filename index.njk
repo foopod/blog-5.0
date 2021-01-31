@@ -1,0 +1,41 @@
+---
+layout: layouts/wrapper.njk
+---
+
+<section id="about">
+    <p>Hi, I'm a software developer, a maker and a photographer.
+         I love getting my hands dirty and trying new things, learning is the best feeing. 
+          </p>
+         <blockquote>Dude, suckin' at something is the first step to being sorta good at something.
+             <span style="float:right">~ Jake the dog</span>
+         </blockquote>
+</section>
+<section id="writing">
+    <h2 class="section-heading">Writing</h2>
+    <ul class="post-list">
+        {%- for post in collections.post | reverse -%}
+        {% if (loop.index <= 5) %}
+        <li class="post-item">
+            <div class="meta">
+                <time datetime="{{ post.data.date.toISOString() }}" itemprop="datePublished">{{ post.data.date.toShortFormat() }}</time>
+            </div>
+            <span>
+                <a href="{{ post.url}}">{{ post.data.title }}</a>
+            </span>
+        </li>
+        {% endif %}
+        {%- endfor -%}
+    </ul>
+</section>
+<section id="projects">
+    <h2 class="section-heading">Projects</h2>
+    <ul class="project-list">
+        {%- for post in collections.project | reverse -%}
+        {% if (loop.index <= 5) %}
+        <li class="project-item">
+            <a href="{{ post.url}}">{{ post.data.title }}</a>: <p>{{ post.data.description }}</p>
+        </li>
+        {% endif %}
+        {%- endfor -%}
+    </ul>
+</section>

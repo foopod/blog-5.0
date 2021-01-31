@@ -1,0 +1,152 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    background-color: #1d1f21;
+    color: #c9cacc;
+    font-display: swap;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Menlo", "Meslo LG", monospace;
+    line-height: 1.725;
+    text-rendering: geometricPrecision;
+}
+.container{
+    max-width: 48rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow-wrap: break-word;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+#logo{
+    width: 29px;
+    height: 51px;
+    background-size: 29px 51px;
+    background-repeat: no-repeat;
+    
+}
+#logo:hover{
+    -webkit-filter: blur(1px); /* Safari 6.0 - 9.0 */
+    filter: blur(1px);
+}
+
+#header{
+    margin: 0 auto 2rem;
+    width: 100%;
+}
+
+#header a{
+    text-decoration: none;
+}
+
+#header #logo{
+    float:left;
+    margin-right: 20px;
+}
+
+#header h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #c9cacc;
+    letter-spacing: 0.01em;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+nav{
+    color: #fff59d;
+    letter-spacing: 0.01em;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    line-height: 15px;
+}
+
+.content .navlink{
+    display: inline-block;
+    margin-right: 15px;
+    color: #fff59d;
+    vertical-align: middle;
+    background-image: none;
+}
+.content #header .navlink:hover{
+    text-decoration: underline;
+}
+.content nav div{
+    display: inline-block;
+    margin-right: 10px;
+    border-right: 1px dotted;
+    border-right-color: currentcolor;
+    border-color: #fff59d;
+}
+.content nav div:last-child{
+    margin-right: 0;
+    border-right: 0;
+}
+
+.content a{
+    color: #c9cacc;
+    text-decoration: none;
+    background-image: linear-gradient(transparent, transparent 5px, #c9cacc 5px, #c9cacc);
+    background-position: bottom;
+    background-size: 100% 6px;
+    background-repeat: repeat-x;
+}
+
+blockquote{
+    border-left : 2px solid #fff59d;
+    padding-left: 1em;
+}
+.section-heading{
+    color: #fff59d;
+}
+.post-list{
+    padding: 0;
+}
+.post-item{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.meta{
+    text-align: left;
+}
+
+.post-list .post-item .meta{
+    display: block;
+    margin-right: 16px;
+    min-width: 100px;
+    color: #666;
+    font-size: 14px;
+}
+
+.project-list{
+    padding: 0;
+    list-style: none;
+}
+.project-list .project-item{
+    margin-bottom: 5px;
+}
+
+.project-list .project-item p{
+    display: inline;
+}
