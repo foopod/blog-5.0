@@ -12,8 +12,8 @@ I'm a morning a person. Every day while I have been in Christchurch for the last
 
 This old school 1950's Studbaker sat on the side of the road.
 
-{% image "./img/2018-10-01-1.jpg", "The Chrischurch Cathedral now in pieces after the earthquakes(black and white)"%}
+{% image "./img/2018-10-01-2.jpg", "The Chrischurch Cathedral now in pieces after the earthquakes(black and white)"%}
 
-{% image "./img/2018-10-01-1.jpg", "A long black with water on the side(black and white)"%}
+{% image "./img/2018-10-01-3.jpg", "A long black with water on the side(black and white)"%}
 
 This is my routine whenever I go to a new city. Spend an hour or two exploring. Then most importantly to the coffee shop.

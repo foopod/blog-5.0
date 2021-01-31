@@ -135,7 +135,7 @@ blockquote{
     display: block;
     margin-right: 16px;
     min-width: 100px;
-    color: #666;
+    color: #aaa;
     font-size: 14px;
 }
 
@@ -149,4 +149,12 @@ blockquote{
 
 .project-list .project-item p{
     display: inline;
+}
+
+img{
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding:1em;
 }
