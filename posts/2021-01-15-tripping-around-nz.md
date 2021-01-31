@@ -3,6 +3,7 @@ layout: layouts/post.njk
 title: Summer Roadtrip
 description: Two week roadtrip around north island of New Zealand
 date: 2021-01-15
+eleventyExcludeFromCollections: true
 tags: post
 ---
 
