@@ -144,8 +144,8 @@ blockquote{
 
 .post-list .post-item .meta{
     display: block;
-    margin-right: 16px;
-    min-width: 100px;
+    margin-right: 10px;
+    min-width: 110;
     color: #aaa;
     font-size: 14px;
 }

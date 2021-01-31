@@ -6,4 +6,4 @@ To Do
 + 
 + Blog posts
   + Leica IIIC
-  + Other recent things
+  + Getting into an exhibit
