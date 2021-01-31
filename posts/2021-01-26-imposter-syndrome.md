@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: Imposter Syndrome
 description: When you feel like you aren't good enough, anxiety gets the better of you
-date: 2020-01-26
+date: 2021-01-26
 tags: post
 ---
 
