@@ -15,7 +15,7 @@ I decided the best idea was to develop a roll that I had accidentally exposed by
 
 So here I am developing a roll of Kodak Colorplus in my kitchen using Caffenol (a homebrewed b&w development agent made from ingredients you can get at the supermarket).
 
-{% image "./img/2019-02-06-1.jpg", "", "70vw"%}
+{% image "./img/2019-02-06-1.jpg", "", "90vw"%}
 
 The recipe I used is straight out of the [Caffenol Bible]().
 
@@ -24,7 +24,7 @@ The recipe I used is straight out of the [Caffenol Bible]().
 * 1g/l Potassium Bromide (I used iodised salt because I saw someone else use it in a youtube video)
 * 40g/l Instant Coffee Powder
 
-{% image "./img/2019-02-06-2.jpg", "", "70vw"%}
+{% image "./img/2019-02-06-2.jpg", "", "90vw"%}
 
 1. The ingredients above are for 1 litre. So I used half the amount to make a batch of 500ml for my development tank.
 2. They also recommend to make the solution in two parts, one for the soda and another for the coffee. This is so that you can see when both are completely dissolved (the darkness of the coffee powder makes it really hard to see the soda).
@@ -32,7 +32,7 @@ The recipe I used is straight out of the [Caffenol Bible]().
 4. Then stop and fix normally. I just rinsed with water for my stop bath (I saw others do this). And I used Ilford Rapid Fixer at a ration of 1+4 to fix the film.
 5. Then lots of rinsing and hanging up in my shower to dry.
 
-{% image "./img/2019-02-06-3.jpg", "", "70vw"%}
+{% image "./img/2019-02-06-3.jpg", "", "90vw"%}
 
 The results?
 
@@ -40,9 +40,9 @@ Well, it turns out that the film only had 3 frames on it. And there was very lit
 
 Here are two of the three pictures...
 
-{% image "./img/2019-02-06-4.jpg", "", "70vw"%}
+{% image "./img/2019-02-06-4.jpg", "", "90vw"%}
 
-{% image "./img/2019-02-06-5.jpg", "", "70vw"%}
+{% image "./img/2019-02-06-5.jpg", "", "90vw"%}
 
 Yeah. We hella cute.
 
