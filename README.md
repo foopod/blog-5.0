@@ -1,7 +1,7 @@
-To Do
+# To Do
 
-+ Dynamic Titles
 + Dynamic meta data
-+ Add another project
++ Add another project?
 + Blog posts
   + Leica IIIC
+  + Lens fun

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/project.njk
 title: Gospel of Luke
 description: My first photo gig, an interesting experience
 date: 2019-07-03
