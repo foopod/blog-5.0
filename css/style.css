@@ -137,6 +137,9 @@ blockquote{
     display: flex;
     margin-bottom: 5px;
 }
+.post-header{
+    margin-bottom: 0;
+}
 
 .meta{
     text-align: left;
@@ -148,6 +151,10 @@ blockquote{
     min-width: 110;
     color: #aaa;
     font-size: 14px;
+}
+
+.darker{
+    color: #666;
 }
 
 .project-list{
@@ -169,6 +176,13 @@ img{
     margin: auto;
     padding:0;
     background-color:#1d1f21;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td,th{
+    border:1px white solid;
 }
 
 @media only screen and (min-width: 600px) {

@@ -3,22 +3,11 @@
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="/css/style.css"/>
         <title>Jono Shields | {{title}}</title>
+        <meta name="description" content="{{description}}">
     </head>
     <body class="container">
         <div class="content">
-            <header id="header">
-                <a href="/">
-                    <div id="logo" style="background-image: url(/img/logo.png);"></div>
-                    <div id="title">
-                        <h1>Jono Shields</h1>
-                    </div>
-                </a>
-                <nav>
-                    <div><a class="navlink" href="/">Home</a></div>
-                    <div><a class="navlink" href="/archive">Writing</a></div>
-                    <div><a class="navlink" href="/projects">Projects</a></div>
-                </nav>
-            </header>
+            {% include "header.njk" %}
             {{ content | safe }}
         </div>
     </body>

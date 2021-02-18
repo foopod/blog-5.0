@@ -2,4 +2,9 @@
 layout: layouts/wrapper.njk
 permalink: post/{{ page.fileSlug }}/index.html
 ---
+<h1 class="post-header">{{title}}</h1>
+<div class="meta darker ">
+    <time datetime="{{ date.toISOString() }}" itemprop="datePublished">{{ date.toShortFormat() }}</time>
+</div>
+
 {{ content | safe }}
