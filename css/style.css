@@ -190,6 +190,20 @@ td,th{
     border:1px white solid;
 }
 
+input{
+    width: 100%;
+    margin:0.2em;
+    padding: 0.5em;
+    font-size: 14px;
+    background-color: black;
+    color:#c9cacc;
+    border:0px;
+}
+input[type=submit]:hover{
+   background-color: #111;
+}
+
+
 @media only screen and (min-width: 600px) {
     img {
       width: 80%;

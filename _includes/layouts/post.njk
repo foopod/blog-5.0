@@ -5,6 +5,15 @@ permalink: post/{{ page.fileSlug }}/index.html
 <h1 class="post-header">{{title}}</h1>
 <div class="meta darker ">
     <time datetime="{{ date.toISOString() }}" itemprop="datePublished">{{ date.toShortFormat() }}</time>
-</div>
+</div
 
 {{ content | safe }}
+
+<form action="/" class="signup" netlify netlify-honeypot="bot-field">
+    <p>Want to get notified next time I post?</p>
+    <input type=email placeholder="Email">
+    <p style="display:none">
+        <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+    </p>
+    <input type=submit value="Sign up">
+</form>
