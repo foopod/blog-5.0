@@ -209,4 +209,8 @@ input[type=submit]:hover{
       width: 80%;
       padding:1em;
     }
+    form{
+        display: block;
+        margin: auto;
+    }
   }
