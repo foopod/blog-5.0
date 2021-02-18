@@ -177,6 +177,11 @@ img{
     padding:0;
     background-color:#1d1f21;
 }
+
+picture{
+    margin-bottom: 0.5em;
+}
+
 table{
     border-collapse: collapse;
     width: 100%;
