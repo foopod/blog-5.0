@@ -1,0 +1,7 @@
+Sitemap: https://jonoshields.com/sitemap.xml
+
+
+
+User-agent: *
+
+Disallow:
