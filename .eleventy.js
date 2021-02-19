@@ -23,7 +23,7 @@ module.exports = function(eleventyConfig) {
   
     //eleventyConfig.addPassthroughCopy("img");
     eleventyConfig.addPassthroughCopy("css");
-    eleventyConfig.addPassthroughCopy("img/logo.png");
+    eleventyConfig.addPassthroughCopy("img/logo*");
 
 
     let pad = number => number <= 99 ? `0${number}`.slice(-2) : number;
