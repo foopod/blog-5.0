@@ -7,6 +7,18 @@
 
         <meta name="msvalidate.01" content="6005C257EEEEB429FD2EB2818DAD2670" />
         <link rel="icon" type="image/png" href="/img/logo-128.png" sizes="128x128">
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+        <script>
+            if (window.netlifyIdentity) {
+                window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                    window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                    });
+                }
+                });
+            }
+        </script>
     </head>
     <body class="container">
         <div class="content">

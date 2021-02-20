@@ -24,6 +24,7 @@ module.exports = function(eleventyConfig) {
     //eleventyConfig.addPassthroughCopy("img");
     eleventyConfig.addPassthroughCopy("css");
     eleventyConfig.addPassthroughCopy("img/logo*");
+    eleventyConfig.addPassthroughCopy({"cms-config.yml" : "admin/config.yml"});
 
 
     let pad = number => number <= 99 ? `0${number}`.slice(-2) : number;
