@@ -3,7 +3,9 @@ layout: layouts/post.njk
 title: How to do street photography?
 description: Jono explores what it means to take street photos
 date: 2019-06-11
-tags: post
+tags: 
+    - post
+    - photography
 ---
 
 Street Photography. It's not that scary.
@@ -12,35 +14,35 @@ And just like every other aspect of photography you can make it your own.
 
 You can focus on the environment.
 
-{% image "./img/12072019-4.jpg", "", "90vw"%}
+{% image "./photos/12072019-4.jpg", "", "90vw"%}
 
 Or on people.
 
-{% image "./img/12072019-3.jpg", "", "90vw"%}
+{% image "./photos/12072019-3.jpg", "", "90vw"%}
 
 You can set up your composition and wait.
 
-{% image "./img/12072019-7.jpg", "", "90vw"%}
+{% image "./photos/12072019-7.jpg", "", "90vw"%}
 
 Or you can walk and shoot.
 
-{% image "./img/12072019-2.jpg", "", "90vw"%}
+{% image "./photos/12072019-2.jpg", "", "90vw"%}
 
 You can get up close and personal.
 
-{% image "./img/12072019-6.jpg", "", "90vw"%}
+{% image "./photos/12072019-6.jpg", "", "90vw"%}
 
 Or you can shoot from afar.
 
-{% image "./img/12072019-5.jpg", "", "90vw"%}
+{% image "./photos/12072019-5.jpg", "", "90vw"%}
 
 You can talk to your subjects and ask for them to pose for you.
 
-{% image "./img/12072019.jpg", "", "90vw"%}
+{% image "./photos/12072019.jpg", "", "90vw"%}
 
 Or you can take your photos discretely
 
-{% image "./img/12072019-1.jpg", "", "90vw"%}
+{% image "./photos/12072019-1.jpg", "", "90vw"%}
 
 There is one rule though. And this is important...
 

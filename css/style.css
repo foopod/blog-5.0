@@ -5,8 +5,8 @@ html{
 
 body{
     margin: 0;
-    background-color: #1d1f21;
-    color: #c9cacc;
+    background-color: #e7e7e7; /*#1d1f21;*/
+    color: #1d1f21; /*#c9cacc*/;
     font-display: swap;
     font-weight: 400;
     font-size: 14px;
@@ -33,12 +33,16 @@ body{
 }
 
 #logo{
-    width: 29px;
-    height: 51px;
-    background-size: 29px 51px;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
     background-repeat: no-repeat;
-    
+    border-radius: 50%;
+    background-position: center center;
+    background-size: cover;
+    border: 2px #333 solid;
 }
+
 #logo:hover{
     -webkit-filter: blur(1px); /* Safari 6.0 - 9.0 */
     filter: blur(1px);
@@ -59,9 +63,9 @@ body{
 }
 
 #header h1{
-    margin-top: 0;
+    margin-top: 0.5em;
     margin-bottom: 0;
-    color: #c9cacc;
+    color: #1d1f21;
     letter-spacing: 0.01em;
     font-weight: 700;
     font-style: normal;
@@ -70,12 +74,13 @@ body{
 }
 
 nav{
-    color: #fff59d;
+    color: #333;
     letter-spacing: 0.01em;
     font-weight: 200;
     font-style: normal;
     font-size: 0.8rem;
     margin: 0;
+    margin-top:1em;
     padding: 0;
     list-style-type: none;
     line-height: 15px;
@@ -85,7 +90,7 @@ nav{
     display: inline-block;
     padding: 10px 0px;
     margin-right: 10px;
-    color: #fff59d;
+    color: #333;
     vertical-align: middle;
     background-image: none;
 }
@@ -101,7 +106,7 @@ nav{
 
 
 .content nav div:after {
-    border-right: 1px dotted #fff59d;
+    border-right: 1px dotted #333;
     content: '';
     height: 10%;
 }
@@ -109,26 +114,26 @@ nav{
     margin-right: 0;
 }
 .content nav div:last-child::after{
-    border-right: 0px dotted #fff59d;
+    border-right: 0px dotted #333;
     content: '';
     height: 10%;
 }
 
 .content a{
-    color: #c9cacc;
+    color: #1d1f21;
     text-decoration: none;
-    background-image: linear-gradient(transparent, transparent 5px, #c9cacc 5px, #c9cacc);
+    background-image: linear-gradient(transparent, transparent 5px, #1d1f21 5px, #1d1f21);
     background-position: bottom;
     background-size: 100% 6px;
     background-repeat: repeat-x;
 }
 
 blockquote{
-    border-left : 2px solid #fff59d;
+    border-left : 2px solid #333;
     padding-left: 1em;
 }
 .section-heading{
-    color: #fff59d;
+    color: #333;
 }
 .post-list{
     padding: 0;
@@ -159,10 +164,13 @@ blockquote{
 
 .project-list{
     padding: 0;
+    display: flex;
     list-style: none;
 }
 .project-list .project-item{
     margin-bottom: 5px;
+    text-align: center;
+    width: 33%;
 }
 
 .project-list .project-item p{
@@ -175,7 +183,7 @@ img{
     display: block;
     margin: auto;
     padding:0;
-    background-color:#1d1f21;
+    background-color:#ffffff;
 }
 
 picture{
@@ -195,19 +203,42 @@ input{
     margin:0.2em;
     padding: 0.7em;
     font-size: 16px;
-    background-color: black;
-    color:#c9cacc;
+    background-color: #aaa;
+    color:#222;
     border:0px;
 }
 input[type=submit]:hover{
-   background-color: #111;
+   background-color: #ccc;
+}
+
+pre{
+    background-color: #fff;
+    color: #1d1f21;
+    padding:1em;
+    border-radius: 1em;
+    overflow: auto;
+}
+.tags{
+    font-size: 32px;
 }
 
 
 @media only screen and (min-width: 600px) {
+    #header h1{
+        margin-top: 1em;
+    }
     img {
       width: 80%;
-      padding:1em;
+    }
+    #logo{
+        width: 100px;
+        height: 100px;
+        background-size: 100px 100px;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        background-position: center center;
+        background-size: cover;
+        border: 2px #333 solid;
     }
     form{
         display: block;

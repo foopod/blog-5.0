@@ -1,4 +1,5 @@
 const Image = require("@11ty/eleventy-img");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 async function imageShortcode(src, alt, sizes) {
   let metadata = await Image(src, {
@@ -19,13 +20,13 @@ async function imageShortcode(src, alt, sizes) {
 }
 
 module.exports = function(eleventyConfig) {
+    eleventyConfig.addPlugin(syntaxHighlight);
     eleventyConfig.addShortcode("image", imageShortcode);
-  
+
     //eleventyConfig.addPassthroughCopy("img");
     eleventyConfig.addPassthroughCopy("css");
-    eleventyConfig.addPassthroughCopy("img/logo*");
-    eleventyConfig.addPassthroughCopy({"cms-config.yml" : "admin/config.yml"});
-
+    eleventyConfig.addPassthroughCopy("img");
+    eleventyConfig.addPassthroughCopy("arcade");
 
     let pad = number => number <= 99 ? `0${number}`.slice(-2) : number;
     Date.prototype.toShortFormat = function() {

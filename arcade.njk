@@ -1,0 +1,17 @@
+---
+layout: layouts/wrapper.njk
+title: Projects
+description: All the projects
+---
+
+<section id="projects">
+    <h2 class="section-heading">Arcade</h2>
+    <ul class="project-list">
+        {%- for post in collections.project | reverse -%}
+        <li class="project-item">
+            
+            <a href="{{ post.data.link}}"><img style="width:80%;background: none;" src="{{ post.data.image}}">{{ post.data.title }}</a>
+        </li>
+        {%- endfor -%}
+    </ul>
+</section>
