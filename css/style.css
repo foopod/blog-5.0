@@ -203,10 +203,13 @@ input{
     margin:0.2em;
     padding: 0.7em;
     font-size: 16px;
-    background-color: #aaa;
+    background-color: #eee;
     color:#222;
     border:0px;
 }
+input[type=submit]{
+    background-color: #aaa;
+ }
 input[type=submit]:hover{
    background-color: #ccc;
 }
