@@ -5,9 +5,9 @@ description: All the posts
 ---
 
 <section id="writing">
-    <h2 class="section-heading">GameJam</h2>
+    <h2 class="section-heading">GBA GameJam 2021</h2>
     <ul class="post-list">
-        {%- for post in collections.gamejam | reverse -%}
+        {%- for post in collections.gbagamejam2021 | reverse -%}
         <li class="post-item">
             <div class="meta">
                 <time datetime="{{ post.data.date.toISOString() }}" itemprop="datePublished">{{ post.data.date.toShortFormat() }}</time>
