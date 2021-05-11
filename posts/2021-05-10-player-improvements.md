@@ -124,6 +124,12 @@ There are actually almost no code changes between this and the last, just change
 
 This is probably my favourite and gives me lots of ideas about how I can design levels to be make the most of the ability.
 
+There are a few things I have to fix though...
+
++ Implement falling when you stop running
++ Only let you run for a short amount of time
++ Block chaining wall running and jumping to run infinitely
+
 [tag for day-32](https://github.com/foopod/gbaGamejam2021/releases/tag/day-32) [.gba](https://github.com/foopod/gbaGamejam2021/releases/download/day-32/feline-day32.gba)
 
 
