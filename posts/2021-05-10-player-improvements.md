@@ -20,8 +20,7 @@ When I started the easiest thing was just to set the camera's position to the pl
 But at least the programming is super simple.
 
 ``` cpp
-_camera.set_x(_pos.x());
-_camera.set_y(_pos.y());
+_camera.set_position(_pos);
 ```
 
 ![](/img/position-locking.gif)
