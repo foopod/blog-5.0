@@ -130,6 +130,8 @@ There are a few things I have to fix though...
 + Only let you run for a short amount of time
 + Block chaining wall running and jumping to run infinitely
 
+Or would that be less fun?
+
 [tag for day-32](https://github.com/foopod/gbaGamejam2021/releases/tag/day-32) [.gba](https://github.com/foopod/gbaGamejam2021/releases/download/day-32/feline-day32.gba)
 
 
