@@ -134,3 +134,4 @@ Or would that be less fun?
 
 
 [Previous Post](/post/day-27)
+[Previous Post](/post/player-attacking)
