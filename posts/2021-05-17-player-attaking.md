@@ -125,3 +125,4 @@ So yes. Expect something weird, but hopefully still intuitive to display health.
 
 
 [Previous Post](/post/player-improvements)
+[Next Post](/post/jono-has-a-plan)
