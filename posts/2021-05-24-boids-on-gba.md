@@ -155,6 +155,8 @@ With this and similar improvements I can stick to 60fps (allbeit at 90% cpu usag
 
 Lastly I added a scatter rules so that I can dump a [.gba here](https://github.com/foopod/gba-boids/releases/download/release/boids.gba) and it actually be a little interactive (press 'a'). Hint, it is actually just the opposite of the Cohesion rules.
 
+![](/img/scatter.gif)
+
 Also source code is available [here](https://github.com/foopod/gba-boids).
 
 And lastly if this has piqued your curiosity you should also look at [this boids explanation](http://www.kfish.org/boids/pseudocode.html), complete with psuedocode and other behaviour (like perching and avoidance).
