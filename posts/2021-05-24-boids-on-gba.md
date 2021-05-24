@@ -22,7 +22,7 @@ To mimic flocking the rules are as follows...
 
 #### Cohesion
 
-The birds should stay together somewhat. To implement this most algorithms simply move the 'boid' towards the centre of all other boids.
+The birds should stay together somewhat. To implement this, most algorithms simply move the 'boid' towards the centre of all other boids.
 
 Having hit limits on the GBA already though, my plan here is to include the current 'boid' in this average so that we don't have to calculate a different centre for each individual 'boid'. Also the more 'boids' we have the less important this part of the calculation is.
 
