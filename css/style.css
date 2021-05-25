@@ -225,6 +225,13 @@ pre{
     font-size: 32px;
 }
 
+code {
+    background: #373832;
+    color: #f8f8f2;
+    border-radius: 5px;
+    padding: 4px;
+}
+
 
 @media only screen and (min-width: 600px) {
     #header h1{

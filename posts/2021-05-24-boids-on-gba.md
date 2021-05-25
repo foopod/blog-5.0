@@ -72,7 +72,7 @@ Here `_separation_distance` is the distance at which 'boids' should avoid gettin
 
 #### Alignment
 
-'Boids' that are close together should fly in the same direction. Withing a certain distance, 'boids' should try to align themselves with their peers.
+'Boids' that are close together should fly in the same direction. Within a certain distance, 'boids' should try to align themselves with their peers.
 
 ```cpp
 void AlignmentRule::execute(bn::vector<Boid, 32>& boids_ptr){
