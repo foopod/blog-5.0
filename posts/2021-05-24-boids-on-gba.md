@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Making a boids simulation on the GBA
-description: Boids, an algorithm to mimic flocking birds. Now for GBA!
+description: Using the Butano Game Engine to make a Boids Simulation on the Gameboy Advance (GBA), Boids is an algorithm to mimic flocking birds flying and avoiding each other
 date: 2021-05-21
 tags:
     - post
@@ -99,7 +99,7 @@ Here `_alignment_distance` represents how close a bird should be in order to ali
 
 And what we get is something like this...
 
-![](/img/boids.gif)
+![2d moving image of circles flying around the screen, grouping together, then disbanding](/img/boids.gif)
 
 Now I can only get about 10 onto the screen and still hit 60fps, the example above is at 30fps.
 
@@ -117,7 +117,7 @@ Okay. The reason is that previously the alignment rule relies on all boids veloc
 
 It may not look as pleasing, but with the new AllRule step I can get a consistent 68% CPU and 60fps for 20 boids.
 
-![](/img/megarule.gif)
+![similar to previous moving image, but unfortunately the circles don't separate at all, they are just a moving mass](/img/megarule.gif)
 
 ### Attempt #2
 
@@ -149,13 +149,13 @@ void AlignmentRule::execute(bn::vector<Boid, 32>& boids){
 
 With this and similar improvements I can stick to 60fps (allbeit at 90% cpu usage) for the same number of boids.
 
-![](/img/optimise.gif)
+![similar to first image, but now they are moving cohesively](/img/optimise.gif)
 
 ### Scatter
 
 Lastly I added a scatter rules so that I can dump a [.gba here](https://github.com/foopod/gba-boids/releases/download/release/boids.gba) and it actually be a little interactive (press 'a'). Hint, it is actually just the opposite of the Cohesion rules.
 
-![](/img/scatter.gif)
+![The circles all move away from the centre of the screen for a few seconds, then regroup after](/img/scatter.gif)
 
 Also source code is available [here](https://github.com/foopod/gba-boids).
 

@@ -26,6 +26,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("css");
     eleventyConfig.addPassthroughCopy("img");
     eleventyConfig.addPassthroughCopy("arcade");
+    eleventyConfig.addPassthroughCopy("robots.txt");
 
     let pad = number => number <= 99 ? `0${number}`.slice(-2) : number;
     Date.prototype.toShortFormat = function() {

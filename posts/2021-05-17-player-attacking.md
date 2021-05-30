@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Attacking Animations and Enemies
-description: Adding attacks, enemies, their animations and physics
+description: Jono gets stuck for a bit trying to figure out points, we add player attacks, enemies to attack, along with their animations and funky physics
 date: 2021-05-17
 tags:
     - post
@@ -82,7 +82,7 @@ But first, a thank you to [GValiente](https://github.com/GValiente), the author 
 
 I added some animations for the cat's attack..
 
-![](/img/attack-animation.gif)
+![moving image of a cat swiping its paw](/img/attack-animation.gif)
 
 Later in the game I want our main character to unlock some super awesome abilities, but right now he needs some sort of default attack that can get him through at least a couple of slimes and a bat.
 
@@ -90,7 +90,7 @@ Later in the game I want our main character to unlock some super awesome abiliti
 
 I started with a couple of really simple enemy animations (2 frames for movement, 2 frames for death)...
 
-![](/img/enemies.gif)
+![moving image of a slime enemy and a bat enemy bouncing up and down, then they fade](/img/enemies.gif)
 
 One of the games on GBA that I love the most was Castlevania:Aria of Sorrow. This game had [over a hundred different types of enemies](https://castlevania.fandom.com/wiki/Aria_of_Sorrow_Bestiary) and huge variation in combat style and movement. We are talking walking, crawling, flying, bouncing up and down, shooting projectiles, stabbing, breathing smoke that turns you to stone. Hell there is a skeleton that throws bones at you and when he is out, he throws his own skull.
 
@@ -102,13 +102,13 @@ Lets start with our slime. When I initially coded him he just went back and fort
 
 To liven him up I implemented similar physics that our main character uses. So now he can be placed anywhere on the map and avoid running into walls or falling off ledges.
 
-![](/img/enemy-logic.gif)
+![moving image of a slime going to the edge of a platform and then turning before it falls off](/img/enemy-logic.gif)
 
 I wanted to take this a bit further. The slime will be a fairly basic early game enemy (maybe like the zombie in Castlevania). My take on this is that slimes don't have brains, they probably just wander around looking for a food source not really taking in their surroundings. They probably don't even care when they are attacked.
 
 Queue slime bounce...
 
-![](/img/slime-bounce.gif)
+![each time the cat swipes at the slime it gets thrown into the air and knocked about](/img/slime-bounce.gif)
 
 A very simple enemy to get the player used to the handling of the game and attacking. This one has a little more health than usual to show off throwing him around.
 

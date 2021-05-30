@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Jono has a Plan
-description: Coming up with a plan, adding more details and finally a healthbar
+description: If you don't have a plan then how can you know when something didn't go to plan? Making a plan, improving my character sprites and a talk about performance in Butano
 date: 2021-05-21
 tags:
     - post
@@ -73,12 +73,12 @@ Slowly I have been adding more details to the sprites. Today I redid two of my f
 
 Mr. Police Officer Tortoise goes from 16x16 to 32x32.
 
-![](/img/tortoise.png)
+![Sprites of a tortoise with a SWAT helmet, I think its cute](/img/tortoise.png)
 
 
 And then next was trying to make my Golem sprite better. This was interesting, because half way through I decided I also wanted it to be twice as big physically, so this one went from 8x16 to 32x64.
 
-![](/img/golem_progression.png)
+![Sprites of three golem, each made from stone and overgrown with moss and vines](/img/golem_progression.png)
 
 ### Health
 
@@ -88,11 +88,11 @@ I didn't just want a simple bar though or a row of hearts. So I decided to play 
 
 I quickly made 9 different cat sprites.
 
-![](/img/healthbar-cats.gif)
+![moving image of 9 different cat sprites flashing in quick succession](/img/healthbar-cats.gif)
 
 And combined them to make the health bar..
 
-![](/img/healthbar.gif)
+![a row of 9 cats each different, some small, some big, some lying down, others standing](/img/healthbar.gif)
 
 What do you think? Too tacky? Too gimmicky? Not intuitive?
 
@@ -102,7 +102,7 @@ Lastly I have been looking for a good way to give the player tips right when the
 
 This solution is pretty simple and really just stolen from the NPCs I have made. It simply activates when the player is in range and can be dismissed by pressing 'a'.
 
-![](/img/tooltip.gif)
+![text pops up along the bottom of the screen to explain an action](/img/tooltip.gif)
 
 Thanks for reading! As usual .gba and source code below...
 
