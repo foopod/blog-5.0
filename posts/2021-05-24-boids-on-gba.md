@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: Making a boids simulation on the GBA
 description: Using the Butano Game Engine to make a Boids Simulation on the Gameboy Advance (GBA), Boids is an algorithm to mimic flocking birds flying and avoiding each other
-date: 2021-05-21
+date: 2021-05-24
 tags:
     - post
     - procgen
