@@ -8,6 +8,7 @@ tags:
     - procgen
 ---
 
+
 I have had an idea for a game that needs to use a boids algorithm for a while now. 
 
 ### Boids Algorithm
@@ -162,3 +163,4 @@ Also source code is available [here](https://github.com/foopod/gba-boids).
 And lastly if this has piqued your curiosity you should also look at [this boids explanation](http://www.kfish.org/boids/pseudocode.html), complete with psuedocode and other behaviour (like perching and avoidance).
 
 [Previous Post](/post/jono-has-a-plan)
+[Next Post](/post/mapping-out-mvp)
