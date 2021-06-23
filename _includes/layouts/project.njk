@@ -8,4 +8,13 @@ permalink: project/{{ page.fileSlug }}/index.html
     <time datetime="{{ date.toISOString() }}" itemprop="datePublished">{{ date.toShortFormat() }}</time>
 </div>
 
-{{ content | safe }}
+<div class="game">
+    <div class="game-image">
+        <img src="{{image}}"/>
+    </div>
+    <div class="game-description">
+        <a href="{{link}}">Play</a>
+        <!--<a href="#">Source</a>-->
+        {{ content | safe }}
+    </div>
+</div>

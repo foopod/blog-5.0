@@ -181,6 +181,20 @@ blockquote{
     display: inline;
 }
 
+.game{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.game .game-image{
+    padding: 20px;
+}
+
+.game .game-image img{
+    width: 200px;
+}
+
 img{
     width: 100%;
     height: auto;
@@ -258,6 +272,9 @@ code {
         display: block;
         margin: auto;
         margin-top:2em;
+    }
+    .game{
+        flex-wrap: nowrap;
     }
   }
 
