@@ -166,11 +166,15 @@ blockquote{
     padding: 0;
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
 .project-list .project-item{
+    padding: 10px;
     margin-bottom: 5px;
     text-align: center;
-    width: 33%;
+    /* width: 140px; */
 }
 
 .project-list .project-item p{
