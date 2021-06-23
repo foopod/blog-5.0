@@ -10,7 +10,7 @@ description: Here you can find all of Jono's games in one place for you to play 
         {%- for post in collections.project | reverse -%}
         <li class="project-item">
             
-            <a href="{{ post.data.link}}"><img style="width:80%;background: none;" src="{{ post.data.image}}">{{ post.data.title }}</a>
+            <a href="{{ post.url}}"><img style="width:80%;background: none;" src="{{ post.data.image}}">{{ post.data.title }}</a>
         </li>
         {%- endfor -%}
     </ul>
