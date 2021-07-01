@@ -1,0 +1,12 @@
+<hr style="border:none;border-bottom:1px #333 solid;width:80%;height:2em;">
+
+<form action="/" name="newsletter" class="signup" netlify netlify-honeypot="bot-field">
+    <p style="text-align: center;">Want to get notified next time I post?</p>
+    <input type=email placeholder="Email" name="Email" required>
+    <input type=hidden name="tags" value="{{tags}}" required>
+    <p style="display:none">
+        <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+    </p>
+    <input type=submit value="Sign up">
+    
+</form>
