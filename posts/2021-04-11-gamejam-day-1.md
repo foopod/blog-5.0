@@ -16,5 +16,3 @@ I normally use much higher level languages, python, javascript, c#. But looking 
 Maybe I could map all of this to a language that I know. Googles "Lua bridge" furiously.
 
 Eventually gives up.
-
-[Next Post](/post/day-2)

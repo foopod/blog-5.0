@@ -161,6 +161,3 @@ Lastly I added a scatter rules so that I can dump a [.gba here](https://github.c
 Also source code is available [here](https://github.com/foopod/gba-boids).
 
 And lastly if this has piqued your curiosity you should also look at [this boids explanation](http://www.kfish.org/boids/pseudocode.html), complete with psuedocode and other behaviour (like perching and avoidance).
-
-[Previous Post](/post/jono-has-a-plan)
-[Next Post](/post/mapping-out-mvp)

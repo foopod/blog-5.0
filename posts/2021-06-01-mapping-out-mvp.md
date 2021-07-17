@@ -152,6 +152,3 @@ I am also toying with a couple of ideas for them.
 2. Maybe make these also be hidden save points, so if you die you would go back to the last one you touched. But not tell the player, it can be like a little fun thing to discover and then use if they need to.
 
 [tag for day-52](https://github.com/foopod/gbaGamejam2021/releases/tag/day-52) [.gba](https://github.com/foopod/gbaGamejam2021/releases/download/day-52/feline-day52.gba)
-
-[Previous Post](/post/boids-on-gba)
-[Next Post](/post/day-74)

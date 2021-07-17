@@ -108,6 +108,3 @@ Thanks for reading! As usual .gba and source code below...
 
 [tag for day-40](https://github.com/foopod/gbaGamejam2021/releases/tag/day-44) [.gba](https://github.com/foopod/gbaGamejam2021/releases/download/day-44/feline-day44.gba)
 
-
-[Previous Post](/post/player-attacking)
-[Next Post](/post/boids-on-gba)

@@ -16,4 +16,9 @@ permalink: post/{{ page.fileSlug }}/index.html
 
 {{ content | safe }}
 
+<blockquote>
+    {% include "paginate.njk" %}
+</blockquote>
+
 {% include "form.njk" %}
+

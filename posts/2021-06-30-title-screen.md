@@ -101,6 +101,3 @@ Now just to add some minor other enhancements and my title screen is complete.
 ![](/img/title-screen.gif)
 
 [tag for day-81](https://github.com/foopod/gbaGamejam2021/releases/tag/day-81) [.gba](https://github.com/foopod/gbaGamejam2021/releases/download/day-81/feline-day81.gba)
-
-[Previous Post](/post/day-74)
-[Next Post](/post/finishing-touches)

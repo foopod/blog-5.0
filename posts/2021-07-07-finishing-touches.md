@@ -111,5 +111,3 @@ And thanks a lot for following me on this adventure!
 ![](/img/gif.gif)
 
 [tag for day-88](https://github.com/foopod/gbaGamejam2021/releases/tag/day-88) [.gba](https://github.com/foopod/gbaGamejam2021/releases/download/day-88/feline-day88.gba)
-
-[Previous Post](/post/title-screen)

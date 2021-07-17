@@ -123,6 +123,3 @@ So yes. Expect something weird, but hopefully still intuitive to display health.
 
 [tag for day-40](https://github.com/foopod/gbaGamejam2021/releases/tag/day-40) [.gba](https://github.com/foopod/gbaGamejam2021/releases/download/day-40/feline-day40.gba)
 
-
-[Previous Post](/post/player-improvements)
-[Next Post](/post/jono-has-a-plan)
