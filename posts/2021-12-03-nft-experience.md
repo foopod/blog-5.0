@@ -3,12 +3,13 @@ layout: layouts/post.njk
 title: Why I stopped making NFTs
 description: My short experience with NFTs, why I stopped and what I would do differently next time.
 date: 2021-12-03
-eleventyExcludeFromCollections: true
 tags: 
     - post
 ---
 
 ## What is an NFT?
+
+[Skip to **Why** if you already know](#skip)
 
 Non Fungible Token. A token (small piece of data) that can't be changed. This achieved using blockchain technology. Most NFT's are made using smart contracts on the Ethereum (a cryptocurrency) network.
 
@@ -17,6 +18,8 @@ This datum is replicated along with a public key across thousands of computers a
 This information is available for all to see. The data itself however is usually something fairly insignificant, usually a URL or a hash of a larger file. This is because ethereum (and other cryptocurrencies) are built to be a transaction ledger, not a store of information.
 
 These links or hashes normally pair to an image, video or other piece of media.
+
+<div id="skip">
 
 ## Why did I make an NFT?
 
