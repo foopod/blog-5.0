@@ -5,6 +5,7 @@ description: Creating a map of the bare essentials of the game to display as muc
 date: 2021-06-01
 tags:
     - post
+    - gamejam
     - gbagamejam2021
 ---
 

@@ -1,14 +1,13 @@
 ---
 layout: layouts/wrapper.njk
-title: GBAGameJam21
-description: Blog Posts that I wrote as part of GBAGameJam2021 where I made a game using Butano for the Gameboy Advance
+title: GameJams
+description: Blog Posts that I write as part of GameJams
 ---
 
 <section id="writing">
-    <h1 class="section-heading">GBA GameJam 2021</h1>
-    <p>I am using <a href="https://github.com/GValiente/butano">Butano</a> to build a Gameboy Advance game for <a href="https://itch.io/jam/gbajam21">GBAGameJam2021</a>.</p>
+    <h1 class="section-heading">GameJam Posts</h1>
     <ul class="post-list">
-        {%- for post in collections.gbagamejam2021 | reverse -%}
+        {%- for post in collections.gamejam | reverse -%}
         <li class="post-item">
             <div class="meta">
                 <time datetime="{{ post.data.date.toISOString() }}" itemprop="datePublished">{{ post.data.date.toShortFormat() }}</time>

@@ -5,6 +5,7 @@ description: Getting onboard with GBAJam 2021
 date: 2021-04-11
 tags:
     - post
+    - gamejam
     - gbagamejam2021
 ---
 

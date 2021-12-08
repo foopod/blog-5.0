@@ -5,6 +5,7 @@ description: Redoing the cat animation from reference images, improving how the 
 date: 2021-05-10
 tags:
     - post
+    - gamejam
     - gbagamejam2021
 ---
 

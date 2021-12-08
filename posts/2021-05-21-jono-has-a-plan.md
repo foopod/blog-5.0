@@ -5,6 +5,7 @@ description: If you don't have a plan then how can you know when something didn'
 date: 2021-05-21
 tags:
     - post
+    - gamejam
     - gbagamejam2021
 ---
 

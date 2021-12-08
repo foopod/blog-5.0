@@ -5,6 +5,7 @@ description: Adding a title screen to my GBA Game Feline using HBlank Effects on
 date: 2021-06-30
 tags:
     - post
+    - gamejam
     - gbagamejam2021
 ---
 

@@ -5,6 +5,7 @@ description: Jono gets stuck for a bit trying to figure out points, we add playe
 date: 2021-05-17
 tags:
     - post
+    - gamejam
     - gbagamejam2021
 ---
 
