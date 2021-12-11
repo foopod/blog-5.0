@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Adding more features to Luggage Retrieval Officer
+title: More features in Luggage Retrieval Officer
 description: Adding more features to Luggage Retrieval Officer
 date: 2021-12-10
 tags: 
@@ -104,9 +104,10 @@ There are also a bunch of little things that make the game better.
 + Refactoring scenes - previously each level was a scene, now I just have a factory (kinda) class that makes the puzzles.
 + Saving - My first time using SRAM to save to internal memory. Butano made this so easy, in particular the [SRAM example](https://github.com/GValiente/butano/tree/master/examples/sram) that I pretty much copied my implementation from.
 
+### Download the ROM [here](https://github.com/foopod/lro/releases/download/20211210/lro.gba)
+
 
 ### Find more below
 
 + Github - [https://github.com/foopod/lro](https://github.com/foopod/lro)
 + Git Tag - [https://github.com/foopod/lro/releases/tag/20211210](https://github.com/foopod/lro/releases/tag/20211210)
-+ ROM  - [https://github.com/foopod/lro/releases/download/20211210/lro.gba](https://github.com/foopod/lro/releases/download/20211210/lro.gba)
